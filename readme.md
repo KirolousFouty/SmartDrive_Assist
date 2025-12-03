@@ -1,5 +1,6 @@
 # SmartDrive Assist
 Repo: (https://github.com/KirolousFouty/SmartDrive_Assist)
+
 Slides: (https://docs.google.com/presentation/d/1q50BYbvvIYqRlaDNp8o2jzzFzzxluPKRQW1nXwuOVP4/edit?usp=sharing)
 
 ## Group Members
@@ -53,8 +54,8 @@ SmartDrive Assist is an embedded motion-control interface for a Dagu Thumper Rob
   - Generated HAL setup: SystemClock_Config, GPIO, USART2, ADC1
   - Stack/Heap tuned in IOC (StackSize=0x400, HeapSize=0x200)
 - Key modules
-  - System clock and RCC setup via HAL RCC macros (see [`__HAL_RCC_LSEDRIVE_CONFIG`](/Users/kirolousfouty/Downloads/Projects/SmartDrive_Assist/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h))
-  - ADC sampling for joystick axes in [`ADC1` init](/Users/kirolousfouty/Downloads/Projects/SmartDrive_Assist/Core/Src/main.c)
+  - System clock and RCC setup via HAL RCC macros
+  - ADC sampling for joystick axes in ADC1
   - PWM generation for motors using TIM peripherals configured in CubeMX
   - Keypad matrix scanning with GPIO input pull-ups, debouncing in the main loop or timer ISR
   - Seven-segment updates via 74HC595 using SPI or bit-banged GPIO from main
