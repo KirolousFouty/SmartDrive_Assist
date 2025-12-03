@@ -68,12 +68,55 @@ SmartDrive Assist is an embedded motion-control interface for a Dagu Thumper Rob
   - Rotate 90° modes run timed differential motor outputs
   - Stop/reset clears motion, zeros PWM, and resets state
 
-## Achievements
-- Integrated keypad, joystick, and display with STM32 HAL
-- Smooth motion blending of joystick input with preset speeds
-- Robust input handling with debouncing and safety features
-- Successful navigation and mode operations on Dagu Thumper
-- Modular design ready for sensors and closed-loop control
+## Final Product (Target)
+- Integrated controller running on STM32L432KC
+- Real-time motion via joystick with speed/mode selection from keypad
+- PWM motor control through Pololu TReX driver
+- Non-blocking seven-segment feedback for current speed/mode
+- Fully tested on Dagu Thumper with safety and precision modes
+
+## Milestone
+- Current wiring image  
+  ![Keypad & Joystick Wiring](keypad&joystick.jpeg)
+
+- Joystick testing video  
+  <video controls width="480">
+    <source src="joystick.mp4" type="video/mp4">
+  </video>
+
+- Keypad testing video  
+  <video controls width="480">
+    <source src="keypad.mp4" type="video/mp4">
+  </video>
+
+- Block diagrams  
+  ![Block Diagram](block-diagram.png)  
+  ![Block Diagram with Pics](block-diagram-with-pics.png)
+
+- Achievements
+  - Integrated keypad, joystick, and display with STM32 HAL
+  - Smooth motion blending of joystick input with preset speeds
+  - Robust input handling with debouncing and safety features
+  - Successful navigation and mode operations on Dagu Thumper
+  - Modular design ready for sensors and closed-loop control
+
+- What’s Left
+  - Joystick Value Mapping to Motion Control  
+    - Map joystick ADC values to movement commands (forward, reverse, turning).
+  - Keypad Integration with Motor Logic  
+    - Use keypad inputs to select speed levels, modes, or features.
+  - Motor Control Implementation  
+    - Generate PWM signals and interface with the Pololu TReX motor driver.
+  - Seven-Segment Display Updates  
+    - Display current speed/mode in real time without blocking other tasks.
+  - System Integration & Testing  
+    - Combine keypad + joystick + motor control and test on the Dagu Thumper.
+
+- Feedback
+  - Think from a wheelchair user's experience, what do they need?
+  - Pre-defined trips with collision avoidance
+  - Better display
+  - I2C
 
 ## References
 - STM32L432KC datasheet:
