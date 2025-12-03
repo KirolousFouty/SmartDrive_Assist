@@ -75,21 +75,23 @@ SmartDrive Assist is an embedded motion-control interface for a Dagu Thumper Rob
 
 ## Milestone
 - Current wiring image  
-  ![Keypad & Joystick Wiring](keypad&joystick.jpeg)
+![keypad joystick](https://github.com/user-attachments/assets/649bde87-b61b-4933-a5ef-0795a282d8ea)
 
-- Joystick testing video  
-  <video controls width="480">
-    <source src="joystick.mp4" type="video/mp4">
-  </video>
+- Joystick testing video
 
-- Keypad testing video  
-  <video controls width="480">
-    <source src="keypad.mp4" type="video/mp4">
-  </video>
+https://github.com/user-attachments/assets/100aa264-1669-4684-886a-45d782bc2c1f
 
-- Block diagrams  
-  ![Block Diagram](block-diagram.png)  
-  ![Block Diagram with Pics](block-diagram-with-pics.png)
+
+- Keypad testing video
+
+https://github.com/user-attachments/assets/dda9183b-13e5-4316-8b85-7ee06566c8c5
+
+
+
+- Block diagrams
+<img width="1145" height="564" alt="block-diagram" src="https://github.com/user-attachments/assets/1421b467-3fa2-4df0-81a9-573d5e83b152" />
+
+<img width="1145" height="564" alt="block-diagram-with-pics" src="https://github.com/user-attachments/assets/05b92bd9-1657-43a0-88d6-93746f7e9243" />
 
 - Achievements
   - Integrated keypad, joystick, and display with STM32 HAL
