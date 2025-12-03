@@ -1,6 +1,6 @@
 # SmartDrive Assist
-Repo: (add your GitHub link)
-Final slides: (add your presentation link)
+Repo: (https://github.com/KirolousFouty/SmartDrive_Assist)
+Slides: (https://docs.google.com/presentation/d/1q50BYbvvIYqRlaDNp8o2jzzFzzxluPKRQW1nXwuOVP4/edit?usp=sharing)
 
 ## Group Members
 - Aly Mahmoud (https://github.com/AlyMohamedd)
